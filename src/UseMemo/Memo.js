@@ -23,6 +23,7 @@ const Memo = () => {
   //     return add * 10;
   //   }
 
+  //Now using useMemo and passing the function in useMemo the multiply function will not run when you click on sub button
   const multiplication = useMemo(
     function multiply() {
       console.log("running");
