@@ -7,9 +7,10 @@ const Usestate = () => {
   };
   return (
     <>
+      {console.log("hsjdg")}
       <button onClick={handleClick}>Increment</button>
       {value}
-      <button onClick={() => setvalue(value + 1)}>Decrement</button>
+      <button onClick={() => setvalue(value - 1)}>Decrement</button>
     </>
   );
 };

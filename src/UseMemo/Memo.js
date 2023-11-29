@@ -8,6 +8,7 @@
 // Suppose one user has passed (5,5) as parameter to the add function and the next user also passes (5,5) as parameter again to the add function then the add function will not perform the add operation again, instead it will return the value of first user which he had stored in cache
 
 //Why we use useMemo -> To improve performance of our Application. useMemo takes in a function and a dependency
+//useMemo is used for function and variables and React.memo (React.memo is a HOC and useMemo is a hook) is used to memoize React component
 
 import React from "react";
 import { useMemo } from "react";

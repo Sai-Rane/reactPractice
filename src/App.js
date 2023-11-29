@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Memo from "./UseMemo/Memo";
+import Callback from "./UseCallback/Callback";
+// import Memo from "./UseMemo/Memo";
 // import Usereducer from "./useReducer/Usereducer";
 // import Usestate from "./useState/Usestate";
 // import Form from "./RegistrationPage/Form";
@@ -15,7 +16,8 @@ function App() {
       {/* <Form /> */}
       {/* <Parent /> */}
       {/* <Ref /> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Callback />
     </div>
   );
 }
