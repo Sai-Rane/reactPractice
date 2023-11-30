@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Callback from "./UseCallback/Callback";
+// import Callback from "./UseCallback/Callback";
+import Context from "./UseContext/Context";
 // import Memo from "./UseMemo/Memo";
 // import Usereducer from "./useReducer/Usereducer";
 // import Usestate from "./useState/Usestate";
@@ -17,7 +18,8 @@ function App() {
       {/* <Parent /> */}
       {/* <Ref /> */}
       {/* <Memo /> */}
-      <Callback />
+      {/* <Callback /> */}
+      <Context />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 Promoter - Person who starts the Company
 
-ex. Reliance Promoter is Ambani
+ex. Ambani is Promoter of Reliance
 
 Dividend - Retrun given to shareholders by the company.Dividend is given on Face Value
 
@@ -74,6 +74,7 @@ Maximum 200. If you want more people you need to change your company from Privat
 PAN India (Throughout India)
 
 IPO (Initial Public Offer)
+When a private company first sells shares of stock to the public, this process is known as an initial public offering (IPO). In essence, an IPO means that a company's ownership is transitioning from private ownership to public ownership. For that reason, the IPO process is sometimes referred to as "going public."
 
 
 LTP Latest Traded Price 
