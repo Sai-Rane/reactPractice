@@ -1,0 +1,130 @@
+Promoter - Person who starts the Company
+
+ex. Reliance Promoter is Ambani
+
+Dividend - Retrun given to shareholders by the company.Dividend is given on Face Value
+
+Turnover (April to March) is Sales
+Profit = Turnover - Expenses
+
+Top line growth and Bottom line growth
+Top line growth is Turnover
+Bottom line growth is Profit after Tax
+
+If the Bottom line growth is growing at a higher pace as compared to the Top line growth it is a good sign for a company and you can invest in it
+
+-------------------------------------------------------
+
+Stock Split Concept
+
+Liquidity - More and more people buying and selling the share
+
+Stock Split is made on Face Value
+
+Example: Face Value(Price of Share when the Company was started in the beginning) of Britannia Share is 2. You invest 1 lakh ₹ in Britannia. You get 50000 			 shares of Britannia now(100000/2)
+         Face Value of a share is 2 and Market price of the share is 5000 as per current market.
+
+
+The moment when the Stock Splits , the Face Value is made half i.e Now the Face Value is 1 , Shares are doubled (i.e 50000 will be 1 lakh now) and Market price is also halfed(from 5000 it is now reduced to 2500)
+
+The Face Value of the share is split and the number of shares will increase proportionattly
+
+--------------------------------------------------------
+
+Bonus Shares - Free shares that company gives you. These are free Shares issued by the Company to the investors
+Bonus Ratio
+1:2 1 free share for every 2 shares held
+
+Who decides Share Prices??
+The prices of Shares are dependent on Demand and Supply
+More Demand Less Supply situation - In this case the Seller will have the power to decide the price at which he wants to sell the share to the buyers. In this situation the price of share will increase
+
+--------------------------------------------------------
+
+Primary Market and Secondary Market
+Primary Market is also known as new issue market. A company comes up with an IPO through Primary market. In a Primary market transaction is between issuer company and investor
+Secondary Market - Also known as Stock Exchange(ex.BSE,NSE). Transaction is betweeen investors.
+NSE and BSE is like a shop where we can buy and sell shares
+
+--------------------------------------------------------
+
+Demat Account
+An account used to store Shares
+
+Trading Account
+Account through which you can trade(Buy or Sell Shares).After Buying shares you keep it in the Demat Account
+You can't keep your shares in Bank Account.. You need a Demat account for that
+
+
+Contract Note
+Whenever you Buy or Sell any shares, Broker gives investor a receipt i.e Contract Note. Investor receives it on their registered mail or mobile number
+
+T+2 Settlement
+T stands for Trade date
+A system where the transaction is settled after 2 working days from the Trade Date
+
+Intraday
+It means Buying and Selling Shares on the same day
+
+You cannot buy shares of a company which is not listed in Stock Exchange
+
+How many Shareholders can be there in a Private Limited Company??
+Maximum 200. If you want more people you need to change your company from Private Limited to Public Limited
+
+PAN India (Throughout India)
+
+IPO (Initial Public Offer)
+
+
+LTP Latest Traded Price 
+
+Pre Opening Market Session (9AM to 9:15AM)
+A 15 mins session to absorb heavy fluctuations in the market
+
+After Market Orders AMO (3:30 PM to 9:00 AM)
+
+Gap up opening If the share price opens at a price higher than previous day's closing price, it is known as Gap up opening
+
+Gap down opening If the share price opens at a price lower than previous day's closing price, it is known as Gap down opening
+
+Dividend is exempt upto 10Lac earlier Now it is 1lac. Above that it is Taxable at rate of 10%
+
+Members of Stock Exchange are Brokers
+
+Types of Investors
+RII
+HNI (High Net worth Individual) - Who invests in IPO greater than 2lakh ₹
+DII (Domestic Institutional Investor) - 
+FII (Foreign Institutional Investor) - 
+
+When investment exceeds 2lakhs then you come in HNI category
+
+Depositories and DPs
+
+CDSL (Central Depository Service Ltd) and NSDL (National Security Depository Ltd)
+Investors have physical share certificate they need to convert them in form of DEMAT. So investor will share certificate to Broker..Broker will then forward it to company. Company will forward it to the Depository. Depository converts Physical share into Dematerialized share
+
+Volume - Number of shares which are traded on a specific day
+
+DP (Depository Participant) DP are Broker
+
+Power of Attorney
+Giving permission to Broker to sell shares on your behalf
+
+Types of Order
+
+In Order Type we have 4 options - MARKET, LIMIT, SL(STOPLOSS) LIMIT, SL(STOPLOSS) MARKET
+In Complexity we have 4 options - SIMPLE, AMO(AFTER MARKET ORDERS), CO(COVER ORDER), OCO(ONE CANCELS OTHER)
+
+Short Selling
+MIS (Margin Intraday Settlement)
+Key feature of Short Selling is Sell high and when it goes low then Buy it
+
+CNC (Cash and Carry)
+
+Upper Circuit(All Buyers and No Sellers)
+
+Order
+Types: Limit Order
+       Market Order
+       Stoploss Order
