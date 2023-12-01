@@ -1,7 +1,9 @@
 import React from "react";
-import "./App.css";
+
+import UseStateWithArray from "./useState/UseStateWithArray";
 // import Callback from "./UseCallback/Callback";
-import Context from "./UseContext/Context";
+// import Context from "./UseContext/Context";
+// import UseStateWithObject from "./useState/UseStateWithObject";
 // import Memo from "./UseMemo/Memo";
 // import Usereducer from "./useReducer/Usereducer";
 // import Usestate from "./useState/Usestate";
@@ -11,7 +13,7 @@ import Context from "./UseContext/Context";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Usereducer /> */}
       {/* <Usestate /> */}
       {/* <Form /> */}
@@ -19,7 +21,9 @@ function App() {
       {/* <Ref /> */}
       {/* <Memo /> */}
       {/* <Callback /> */}
-      <Context />
+      {/* <Context /> */}
+      {/* <UseStateWithObject /> */}
+      <UseStateWithArray />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+//Why useState - We can't directly update our variable in react for that we need a function
 import React, { useState } from "react";
 
 const Usestate = () => {
