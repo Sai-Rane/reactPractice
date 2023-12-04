@@ -30,3 +30,40 @@ Rule of Redux:
 }
 
 3. To specify how the state tree is transformed by actions, we write pure Reducer
+
+-----------------------------------------------------------
+https://www.youtube.com/watch?v=vJaXlVGF9fE
+
+Action in Redux:
+
+1. Actions are JS Objects that contains information.
+2. Actions are the only source of information for the store, it tells us what has happened
+3. Actions have a type property and it should be defined in string constraint.
+4. It is compulsory to include the type property in the Object
+
+Syntax:
+const action={
+    type:"buyBook"
+}
+
+------------------------------------------------------------
+https://www.youtube.com/watch?v=OzVUmxuOQzo
+
+Reducer in React
+
+1. Reducers decides how the state of application changes depending upon the action sent to the store
+2. Reducers are function that accepts state and action as parameter and returns the next state of the application
+
+(prevState,action)=>newState
+
+-------------------------------------------------------------
+
+https://www.youtube.com/watch?v=htlsE7svWIs
+
+Redux Store:
+
+1. Entire Application contains single store.
+2. It is responsible for holding application state
+3. getState() method gives access to state it holds
+4. dispatch(action) method allow state to be updated
+5. It has subscribe (listener) method as well by which we can register listeners.This method accept function (listener) as a parameter which execute anytime when the state in redux store changes
