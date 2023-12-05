@@ -1,6 +1,9 @@
 import React from "react";
-
-import UseStateWithArray from "./useState/UseStateWithArray";
+import { Provider } from "react-redux";
+// import Redux from "./Redux/Redux";
+import store from "./Redux/Store";
+import Counter from "./UseReducerNew/Counter";
+// import UseStateWithArray from "./useState/UseStateWithArray";
 // import Callback from "./UseCallback/Callback";
 // import Context from "./UseContext/Context";
 // import UseStateWithObject from "./useState/UseStateWithObject";
@@ -13,18 +16,22 @@ import UseStateWithArray from "./useState/UseStateWithArray";
 
 function App() {
   return (
-    <div>
-      {/* <Usereducer /> */}
-      {/* <Usestate /> */}
-      {/* <Form /> */}
-      {/* <Parent /> */}
-      {/* <Ref /> */}
-      {/* <Memo /> */}
-      {/* <Callback /> */}
-      {/* <Context /> */}
-      {/* <UseStateWithObject /> */}
-      <UseStateWithArray />
-    </div>
+    <Provider store={store}>
+      <div>
+        {/* <Usereducer /> */}
+        {/* <Usestate /> */}
+        {/* <Form /> */}
+        {/* <Parent /> */}
+        {/* <Ref /> */}
+        {/* <Memo /> */}
+        {/* <Callback /> */}
+        {/* <Context /> */}
+        {/* <UseStateWithObject /> */}
+        {/* <UseStateWithArray /> */}
+        {/* <Redux /> */}
+        <Counter />
+      </div>
+    </Provider>
   );
 }
 

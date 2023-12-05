@@ -1,21 +1,23 @@
+https://www.youtube.com/watch?v=CEHciMNpaC4
+
 Redux is a library for Javascript Applications
 You can use Redux together with React or with any other view library i.e Angular or Vue is a state container ex:Registration form
 
 ----------------------------------------------------------
-
+https://www.youtube.com/watch?v=hPBJ_BEnM1E
 Core Concepts of Redux:
 
 Keep these 3 things in mind 
 Store - Holds state of your Application
-Action - Describe the changes in state of Application
+Action - Describe the changes in state of Application (ex:increment,decrement,buyBook etc)
 Reducer - Actually carries out the state transition depending on the action. Reducer is a function
 
-Example:             Book Shop
+Example:                Book Shop
          Shop <-------> Shopkeeper <-------> Customer
         (store)         (Reducer)            (Action)
 
 -----------------------------------------------------------
-
+https://www.youtube.com/watch?v=hPF999Dobmw
 Rule of Redux:
 
 1. The state of your application is stored in an object tree within a single store
@@ -26,7 +28,7 @@ Rule of Redux:
 2. Only way to change the state is to emit an action, an object describing what happened
 {
     Type:"buyCake",
-    Type:"Increment Operation"
+    Type:"Increment/Decrement Operation"
 }
 
 3. To specify how the state tree is transformed by actions, we write pure Reducer
