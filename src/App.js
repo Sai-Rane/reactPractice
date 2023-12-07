@@ -1,10 +1,11 @@
 import React from "react";
 import { Provider } from "react-redux";
 // import Controlled from "./ControlledComponent/Form";
-import Uncontrolled from "./ControlledComponent/Uncontrolled";
+// import Uncontrolled from "./ControlledComponent/Uncontrolled";
 // import Hook from "./CustomHook/Hook";
 // import Redux from "./Redux/Redux";
 import store from "./Redux/Store";
+import Route1 from "./Router/Route1";
 // import Counter from "./UseReducerNew/Counter";
 // import UseStateWithArray from "./useState/UseStateWithArray";
 // import Callback from "./UseCallback/Callback";
@@ -35,7 +36,8 @@ function App() {
         {/* <Counter /> */}
         {/* <Hook /> */}
         {/* <Controlled /> */}
-        <Uncontrolled />
+        {/* <Uncontrolled /> */}
+        <Route1 />
       </div>
     </Provider>
   );

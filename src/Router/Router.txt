@@ -1,0 +1,14 @@
+In Routes tag we put all our Route tags.
+In Route tag we have 2 attribute/properties such as path and element
+In path we write the directions and in element we specify the destination
+
+Example:
+import { Route, Routes } from "react-router-dom";
+
+  <Routes>
+      <Route path="/" element={<div>I am home page</div>} />
+    </Routes>
+
+Link Tag:
+Whatever we write in Link tag will become clickable.
+Link also has a to property in which we specify the path
