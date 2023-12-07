@@ -1,3 +1,8 @@
+ https://www.youtube.com/watch?v=8DRq5nPC7ak
+ https://www.youtube.com/watch?v=chPnXfOhjug
+ https://www.youtube.com/watch?v=162Lm52CTBM
+ https://www.youtube.com/watch?v=1qPzmBlTlJQ
+
 In Routes tag we put all our Route tags.
 In Route tag we have 2 attribute/properties such as path and element
 In path we write the directions and in element we specify the destination
@@ -12,3 +17,11 @@ import { Route, Routes } from "react-router-dom";
 Link Tag:
 Whatever we write in Link tag will become clickable.
 Link also has a to property in which we specify the path
+
+useNavigation hook - Used to navigate from one page to another
+
+How to pass data using useNavigate?
+You can pass your data with the path in form of state. The data we pass in state is in the form of key value pair as shown below
+    navigate("path", { state: { num: id } });
+
+And to receive the data we use useLocation hook

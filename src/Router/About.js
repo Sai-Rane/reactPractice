@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const About = () => {
+  const location = useLocation();
+  console.log(location);
+  console.log(location.state);
   return (
     <>
-      <div>About</div>
+      <div>You are at About page and id is {location.state.num}</div>
       <Link to="/contact">Contact us</Link>
     </>
   );
