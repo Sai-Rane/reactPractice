@@ -5,7 +5,8 @@ import { Provider } from "react-redux";
 // import Hook from "./CustomHook/Hook";
 // import Redux from "./Redux/Redux";
 import store from "./Redux/Store";
-import Route1 from "./Router/Route1";
+// import Route1 from "./Router/Route1";
+import ToDo from "./ToDoList/ToDo";
 // import Counter from "./UseReducerNew/Counter";
 // import UseStateWithArray from "./useState/UseStateWithArray";
 // import Callback from "./UseCallback/Callback";
@@ -37,7 +38,8 @@ function App() {
         {/* <Hook /> */}
         {/* <Controlled /> */}
         {/* <Uncontrolled /> */}
-        <Route1 />
+        {/* <Route1 /> */}
+        <ToDo />
       </div>
     </Provider>
   );
