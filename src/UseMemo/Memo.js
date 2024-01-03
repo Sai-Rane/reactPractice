@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=P_YwL0B8k7k
 //Operations returning same value are stored in Cache, so that there is no need to perform the task again
 
 // Example:
@@ -37,6 +38,7 @@ const Memo = () => {
       {multiplication}
       <br />
       <button onClick={() => setAdd(add + 1)}>Add</button>
+      {/* {multiply()} */}
       <span>{add}</span>
       <br />
       <button onClick={() => setMinus(minus - 1)}>Sub</button>
