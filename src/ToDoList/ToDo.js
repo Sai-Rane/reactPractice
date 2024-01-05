@@ -42,9 +42,10 @@ const ToDo = () => {
 
       {listdata != [] && //checking first that listdata should not be empty
         listdata.map((e, i) => {
-          console.log("list", e);
+          console.log("listdjhsajd", e);
           return (
             <div key={i}>
+              {/* <span>{i}</span> */}
               <span>{e}</span>
               <button
                 onClick={() => {
