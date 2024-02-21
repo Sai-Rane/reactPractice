@@ -1,6 +1,7 @@
 // https://www.youtube.com/watch?v=GD_G41vWAJc&t=2s
 
 import React, { useState } from "react";
+import "./style.css";
 
 const ToDo = () => {
   const [activity, setActivity] = useState("");
@@ -27,27 +28,36 @@ const ToDo = () => {
   }
 
   return (
-    <>
-      <div>To Do List</div>
-      <input
-        type="text"
-        placeholder="Add Activity"
-        value={activity}
-        onChange={(e) => {
-          setActivity(e.target.value);
-        }}
-      />
-      <button onClick={addActivity}>Add</button>
+    <div className="main">
+      <div className="title">To Do List</div>
+      <div className="inputButton">
+        <input
+          className="todoInput"
+          type="text"
+          placeholder="Add Activity"
+          value={activity}
+          onChange={(e) => {
+            setActivity(e.target.value);
+          }}
+        />
+        {activity && (
+          <button className="todoButton" onClick={addActivity}>
+            Add
+          </button>
+        )}
+      </div>
+
       {/* <div>{listdata}</div> */}
 
       {listdata != [] && //checking first that listdata should not be empty
         listdata.map((e, i) => {
           console.log("listdjhsajd", e);
           return (
-            <div key={i}>
+            <div className="list" key={i}>
               {/* <span>{i}</span> */}
               <span>{e}</span>
               <button
+                className="todoButton"
                 onClick={() => {
                   removeActivity(i);
                 }}
@@ -58,7 +68,7 @@ const ToDo = () => {
           );
         })}
       <br></br>
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(114, 114, 175); */
+    /* background: linear-gradient(90deg, rgb(219, 219, 29) 0%, rgb(242, 255, 0) 35%, rgb(212, 221, 126) 100%); */
+    /* background: #ee0979; 
+    background: -webkit-linear-gradient(90deg, #ee0979, #ff6a00); 
+    background: linear-gradient(90deg, #ee0979, #ff6a00); */
+    background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(90deg, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(90deg, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.main{
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    /* color: white; */
+}
+
+.inputButton{
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.todoInput{
+    padding: 5px;
+}
+
+.todoButton{
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
