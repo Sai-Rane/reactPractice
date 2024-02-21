@@ -14,7 +14,7 @@ import ToDo from "./ToDoList/ToDo";
 // import UseStateWithObject from "./useState/UseStateWithObject";
 // import Memo from "./UseMemo/Memo";
 // import Usereducer from "./useReducer/Usereducer";
-// import Usestate from "./useState/Usestate";
+import Usestate from "./useState/Usestate";
 // import Form from "./RegistrationPage/Form";
 // import Parent from "./LiftingStateUp/Parent";
 // import Ref from "./UseRef/Ref";
@@ -24,7 +24,7 @@ function App() {
     <Provider store={store}>
       <div>
         {/* <Usereducer /> */}
-        {/* <Usestate /> */}
+        <Usestate />
         {/* <Form /> */}
         {/* <Parent /> */}
         {/* <Ref /> */}
@@ -39,7 +39,7 @@ function App() {
         {/* <Controlled /> */}
         {/* <Uncontrolled /> */}
         {/* <Route1 /> */}
-        <ToDo />
+        {/* <ToDo /> */}
       </div>
     </Provider>
   );

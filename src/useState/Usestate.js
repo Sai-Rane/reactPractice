@@ -9,6 +9,7 @@ const Usestate = () => {
   const handleClick = () => {
     setvalue(value + 1);
   };
+  console.log("value", value);
   return (
     <>
       {console.log("hsjdg")}
